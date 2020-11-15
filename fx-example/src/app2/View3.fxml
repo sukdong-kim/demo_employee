@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="app2.ViewController3">
+   <children>
+      <VBox fx:id="vbox" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Color">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onClickm1" text="노랑" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickm2" text="초록" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickm3" text="핑트" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickm4" text="갈색" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Stop">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onClickm5" text="종료" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#onClickm6" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
